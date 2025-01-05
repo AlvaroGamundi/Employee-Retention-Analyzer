@@ -14,7 +14,7 @@ with st.sidebar:
     st.image('logo_2.jpg')
 
     # INPUTS DE LA APLICACIÓN
-    educacion = st.selectbox('Education', ['Universitaria', 'Secundaria', 'Master', 'Primaria'])
+    educacion = st.selectbox('Education', ['University', 'High School', 'Master', 'Primary'])
     carrera = st.selectbox('Career', ['Life Sciences', 'Medical', 'Other', 'Marketing', 'Technical Degree', 'Human Resources'])
     departamento = st.selectbox('Department', ['Research & Development', 'Sales', 'Human Resources'])
     puesto = st.selectbox('Position', ['Research Scientist', 'Laboratory Technician', 'Manufacturing Director', 'Healthcare Representative', 'Research Director', 'Manager', 'Sales Representative', 'Sales Executive', 'Human Resources'])
