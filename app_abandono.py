@@ -6,12 +6,12 @@ import pandas as pd
 # CONFIGURACIÓN DE LA PÁGINA
 st.set_page_config(
      page_title='Employee Retention Analyzer',
-     page_icon='logo.jpg',
+     page_icon='imagen_abandono.jpg',
      layout='wide')
 
 # SIDEBAR
 with st.sidebar:
-    st.image('logo_2.jpg')
+    st.image('imagen_abandono.jpg')
 
     # INPUTS DE LA APLICACIÓN
     educacion = st.selectbox('Education', ['University', 'High School', 'Master', 'Primary'])
